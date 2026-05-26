@@ -39,7 +39,7 @@ function Dashboard() {
     if (!title) return;
 
     await axios.post(
-      "http://localhost:5000/api/tasks",
+      "https://task-manager-backend-pxtd.onrender.com/api/tasks",
       {
         title,
         completed: status === "Completed"
@@ -55,7 +55,7 @@ function Dashboard() {
   const completeTask = async (id) => {
 
     await axios.put(
-      `http://localhost:5000/api/tasks/${id}`,
+      `https://task-manager-backend-pxtd.onrender.com/api/tasks/${id}`,
       {},
       config
     );
@@ -66,7 +66,7 @@ function Dashboard() {
   const deleteTask = async (id) => {
 
     await axios.delete(
-      `http://localhost:5000/api/tasks/${id}`,
+      `https://task-manager-backend-pxtd.onrender.com/api/tasks/${id}`,
       config
     );
 
