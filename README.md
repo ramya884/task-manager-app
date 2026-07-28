@@ -50,17 +50,6 @@ https://github.com/ramya884/task-manager-app
 - JWT Authentication
 - bcryptjs
 
----
-
-## 📸 Screenshots
-
-### Login Page
-(Add Screenshot Here)
-
-### Dashboard
-(Add Screenshot Here)
-
----
 
 ## ⚙️ Installation
 
